@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckground"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="137dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Login / लॉगिन"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/mob"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="example@.com or mobile no."
+        android:inputType="textPersonName"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="137dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Password / पासवर्ड"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:hint="************"
+        android:inputType="textPassword"
+        android:textSize="12dp" />
+
+    <TextView
+        android:layout_width="137dp"
+        android:layout_height="34dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="User Type / यूजर का टाइप"
+        android:textSize="12dp" />
+    android:text="User type" />
+
+    <Spinner
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+
+        android:entries="@array/type"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="12dp" />
+
+
+    <Button
+        android:id="@+id/login1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/style1"
+        android:text="लॉग इन करें"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
+

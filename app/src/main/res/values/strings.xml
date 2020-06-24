@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Jmart</string>
+    <string-array name="names">
+        <item>Jabalpur</item>
+        <item>Agar Malwa</item>
+        <item>Alirajpur</item>
+        <item>Anuppur</item>
+        <item>Ashoknagar</item>
+        <item>Badwani</item>
+        <item>Balaghat</item>
+        <item>Betul</item>
+        <item>Bhind</item>
+        <item>Bhopal</item>
+        <item>Burhanpur</item>
+        <item>Chattarpur</item>
+        <item>Chhindwara</item>
+        <item>Damoh</item>
+        <item>Datiya</item>
+        <item>Devas</item>
+        <item>Dhar</item>
+        <item>Dindori</item>
+        <item>Harda</item>
+        <item>Hoshangabad</item>
+        <item>Guna</item>
+        <item>Gwallior</item>
+        <item>Indore</item>
+
+        <item>Jhabua</item>
+        <item>Katni</item>
+        <item>Khandwa</item>
+        <item>Khargaun</item>
+        <item>Mandala</item>
+        <item>Mandsaur</item>
+        <item>Muraina</item>
+        <item>Narsinghpur</item>
+        <item>Nimich</item>
+        <item>Nivadi</item>
+        <item>Panna</item>
+        <item>Raisen</item>
+        <item>Rajgarh</item>
+        <item>Ratlam</item>
+        <item>Riva</item>
+        <item>Sagar</item>
+        <item>Satna</item>
+        <item>Seedhee</item>
+        <item>Seoni</item>
+        <item>Shadol</item>
+        <item>Shajapur</item>
+        <item>Shivpuri</item>
+        <item>Shyopur</item>
+        <item>Sihor</item>
+        <item>Singrauli</item>
+        <item>Tikamgarh</item>
+        <item>Ujjain</item>
+        <item>Umariya</item>
+        <item>Vidisha</item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+    <string-array name="type">
+        <item> Select type</item>
+        <item> Supplier </item>
+        <item> Buyer </item>
+    </string-array>
+</resources>
